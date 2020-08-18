@@ -39,7 +39,7 @@ def func6():
 top=Tk() 
 top.geometry("350x250") #geometry manager organizes the widgets to the specific x and y coordinates
 
-top.title("Code1") # name of the window
+top.title("Tkinter2") # name of the window
 
 #button to open Gmail
 b1=Button(top,font="5px",text="Gmail",padx="27px",background="Gold",activebackground="green",foreground="crimson",pady="10px",border="3px",command=func1,relief=RAISED)
