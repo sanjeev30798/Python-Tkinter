@@ -3,6 +3,7 @@ from tkinter import * # importing the entire tkinter
 #creating the application main window. 
 root=Tk() 
 root.title("Tkinter1") # appears on title bar
+root.geometry('400x300') 
 
 frame1=Frame(root) # first frame
 #pack widget organises widget in the block
